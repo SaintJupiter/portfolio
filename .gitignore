@@ -5,6 +5,8 @@
 !README.md
 !index.html
 !portfolio-readable.css
+!_headers
+!robots.txt
 !assets/
 assets/*
 !assets/sjtu-emblem.png

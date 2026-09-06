@@ -9,10 +9,12 @@
 
 ## 发布
 
-适用于 GitHub Pages：选择 `main` 分支、根目录 `/` 发布。`.nojekyll` 跳过 Jekyll 处理。
+迁移目标为私有 GitHub 仓库连接 Cloudflare Pages，固定公开链接，无密码、无有效期。迁移完成前保留原 GitHub Pages 入口，避免中断访问。
+
+Cloudflare 发布时只上传 `index.html`、`portfolio-readable.css`、`_headers`、`robots.txt` 和页面需要的图片；不要上传 `.git`、README 或原始文档。`_headers` 需要由托管平台实际生效，不能仅凭文件存在判定已完成配置。
 
 ## 隐私与内容
 
-此仓库仅包含页面所需资源，不包含原始简历、内部项目文档或私有数据。页面联系方式由本人选择展示。页面保留 `noindex`，便于通过直接链接访问，但不能阻止第三方转载。
+此仓库仅包含页面所需资源，不包含原始简历或内部项目文档。页面保留姓名和邮箱，不再展示手机号。页面及 Cloudflare 响应头配置 `noindex`；robots.txt 允许抓取，使搜索引擎能够读取禁止收录指令。这不是访问控制，不能阻止第三方查看、转发或保存。历史提交可能仍含此前公开的信息，私有化不能撤回已有副本。
 
 项目截图来自公开演示；校徽仅用于教育经历识别，不代表学校背书。来源见 [assets/SOURCES.md](assets/SOURCES.md)。

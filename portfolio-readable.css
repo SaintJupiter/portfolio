@@ -225,7 +225,6 @@ footer span { font-size:16px; color:var(--muted); }
 .contact-label>span { color:var(--purple); font-size:20px; }
 .contact-rail strong { font-size:22px; line-height:1.5; font-weight:600; overflow-wrap:anywhere; }
 .contact-rail a:first-child strong { background:#e8ddff; padding:2px 9px; border-radius:5px; }
-.contact-rail a:last-child strong { font-size:25px; font-variant-numeric:tabular-nums; }
 .contact-rail a:hover strong { color:var(--purple); }
 .education { padding:22px; }
 .school { position:relative; gap:14px; }
@@ -292,7 +291,6 @@ footer span { font-size:16px; color:var(--muted); }
   .contact-label { font-size:14px; gap:5px; }
   .contact-label>span { font-size:16px; }
   .contact-rail strong { font-size:20px; }
-  .contact-rail a:last-child strong { font-size:23px; }
   .background-stack { grid-template-columns:1fr; }
   .school h2 { font-size:21px; }
   .school h2 span { font-size:19px; margin-left:auto; }
