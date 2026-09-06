@@ -1,0 +1,14 @@
+# Publish only the reviewed site files. Keep personal documents out of this repo.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!index.html
+!portfolio-readable.css
+!assets/
+assets/*
+!assets/sjtu-emblem.png
+!assets/heu-crest-local.png
+!assets/solutionscope.png
+!assets/campus-preview-local.png
+!assets/SOURCES.md
