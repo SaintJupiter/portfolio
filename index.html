@@ -29,7 +29,7 @@
         </nav>
         <div class="background-stack">
           <div class="education"><span class="section-label">教育背景 <small>EDUCATION</small></span><div class="school"><img class="school-emblem" src="./assets/sjtu-emblem.png" alt="上海交通大学校徽" width="64" height="64" /><div><h2>上海交通大学 <span>硕士</span></h2><p>土木水利 · 智能船舶工程</p></div></div><div class="school"><img class="school-emblem" src="./assets/heu-crest-local.png" alt="哈尔滨工程大学校徽" width="64" height="64" /><div><h2>哈尔滨工程大学 <span>本科</span></h2><p>船舶与海洋工程</p></div></div></div>
-          <a class="intern-summary" href="#experience"><img class="jd-logo" src="./assets/jd-official-app.png" alt="京东" width="64" height="64" /><div><strong>京东零售事业部 <span>AI 产品实习生</span></strong><p>ToB 案例查询 · ReAct Agent<span class="intern-keywords">跨系统 CLI · 双层安全护栏 · 人机审批</span></p></div><span class="round-arrow" aria-hidden="true">↗</span></a>
+          <a class="intern-summary" href="#experience"><img class="jd-logo" src="./assets/jd-official-app.png" alt="京东" width="64" height="64" /><div><strong>京东零售事业部 <span>AI 产品实习生</span></strong><p>ToB 案例查询 · ReAct Agent<span class="intern-keywords">多系统接入 · 双层安全护栏 · 人机审批</span></p></div><span class="round-arrow" aria-hidden="true">↗</span></a>
         </div>
       </section>
       <section class="experience detail-section" id="experience">
@@ -42,7 +42,7 @@
             <div class="jd-scope" aria-label="方案覆盖范围"><span>4 类业务系统</span><span>19 个标准工具接口</span><span>L1–L4 数据分级</span><span>方案设计亮点</span></div>
             <div class="jd-highlights">
               <div><span class="highlight-index">01 / ORCHESTRATION</span><h4>ReAct 动态编排</h4><p>根据查询意图与上一步结果选择工具，随追问补充查询步骤；按需组织任务，而非预设所有固定路径。</p></div>
-              <div><span class="highlight-index">02 / TOOL ABSTRACTION</span><h4>跨系统 CLI 抽象</h4><p>将 CRM、数据、财务与合同系统封装为标准工具，统一参数、返回结构与错误码，解耦业务系统与 Agent。</p></div>
+              <div><span class="highlight-index">02 / TOOL ABSTRACTION</span><h4>多系统统一接入</h4><p>将 CRM、数据、财务与合同查询接入统一工具层，规范参数、返回结果和错误码；底层系统接口变化时，Agent 无需同步改写调用逻辑。</p></div>
               <div><span class="highlight-index">03 / DATA GOVERNANCE</span><h4>分级权限 × 双层防护</h4><p>区分公开、脱敏、审批与禁止展示的数据，结合组内／跨组权限；用 Prompt 约束与工具层过滤共同防护。</p></div>
               <div><span class="highlight-index">04 / HUMAN IN THE LOOP</span><h4>不阻塞查询的审批协作</h4><p>管控材料经用户确认后发起审批，等待期间继续查询已授权信息；通过后补充结果，驳回后提供替代路径。</p></div>
               <div><span class="highlight-index">05 / CONVERSATION STATE</span><h4>参数消歧与对话状态</h4><p>用补充、消歧、确认三类追问澄清关键条件；维护参数快照、结果顺序与任务状态，解析“第一个项目”等指代。</p></div>
