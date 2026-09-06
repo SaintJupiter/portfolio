@@ -6,3 +6,6 @@
 - `campus-preview-local.png`：本人校招岗位决策台合成数据演示截图，来自 https://raw.githubusercontent.com/SaintJupiter/campus-job-decision-desk/main/docs/screenshots/dashboard-desktop.png 。
 
 校徽保留原色与比例，仅用于教育经历识别。
+# 京东标识
+
+- `jd-official-app.png`：京东官方下载页内嵌的红底白狗应用图标，未改绘，仅用于标识实习机构。来源：https://wqs.jd.com/downloadApp/openOrDownloadApp.html （2026-09-06）。商标权归京东所有。

@@ -231,7 +231,12 @@ footer span { font-size:16px; color:var(--muted); }
 .school { position:relative; gap:14px; }
 .school+.school { padding-top:19px; margin-top:19px; }
 .school+.school::before { content:""; position:absolute; width:65%; height:1px; top:0; left:78px; background:var(--line); }
-.school h2 { font-size:23px; }
+.school>div { flex:1; min-width:0; }
+.school h2 { display:flex; justify-content:space-between; align-items:baseline; gap:8px; font-size:23px; }
+.school h2 span { margin-left:auto; font-size:20px; flex-shrink:0; }
+.jd-logo { display:block; width:64px; height:64px; object-fit:contain; flex-shrink:0; border-radius:15px; }
+.employer>.jd-logo { width:80px; height:80px; transform:rotate(-3deg); box-shadow:3px 4px 0 #251c2920; }
+.intern-keywords { display:block; margin-top:4px; }
 .school p { font-size:17px; }
 .intern-summary { padding:18px 21px; }
 .intern-summary strong { font-size:21px; }
@@ -290,6 +295,7 @@ footer span { font-size:16px; color:var(--muted); }
   .contact-rail a:last-child strong { font-size:23px; }
   .background-stack { grid-template-columns:1fr; }
   .school h2 { font-size:21px; }
+  .school h2 span { font-size:19px; margin-left:auto; }
   .school p { font-size:16px; }
   .school+.school::before { left:70px; width:65%; }
   .employer { gap:20px; align-items:center; padding-bottom:25px; }
