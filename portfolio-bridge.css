@@ -5,3 +5,4 @@
 .work-shortcuts .primary-work { flex-basis:100%; width:fit-content; font-weight:650; }
 .work-shortcuts .primary-work i { background:#ffb084; }
 .showcase.bridge .screenshot-viewport img { width:100%; height:auto; object-fit:contain; }
+.showcase .project-tagline { margin-top:14px; font-size:15px; line-height:1.7; color:var(--muted); }
