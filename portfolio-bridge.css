@@ -1,0 +1,7 @@
+.showcase.bridge .product-stage { --stage-color:#ffb084; --stage-shadow:#a05c46; }
+.showcase.bridge h3 { font-size:clamp(46px,5vw,70px); }
+.showcase.bridge .project-icon { background:#80daca; }
+.showcase.bridge .feature-sticker { background:#d6c5ff; }
+.work-shortcuts .primary-work { flex-basis:100%; width:fit-content; font-weight:650; }
+.work-shortcuts .primary-work i { background:#ffb084; }
+.showcase.bridge .screenshot-viewport img { width:100%; height:auto; object-fit:contain; }

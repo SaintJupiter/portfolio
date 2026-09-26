@@ -7,14 +7,17 @@
     <title>个人主页｜Portfolio</title>
     <meta name="robots" content="noindex" />
     <meta name="referrer" content="no-referrer" />
-    <link rel="stylesheet" href="./portfolio-readable.css?v=9d55a36" />
+    <link rel="stylesheet" href="./portfolio-readable.css?v=showcase-20260923" />
+    <link rel="stylesheet" href="./portfolio-motion.css?v=choreography-20260923" />
+    <script src="./portfolio-motion.js?v=choreography-20260923" defer></script>
+      <link rel="stylesheet" href="./portfolio-bridge.css?v=20260926" />
   </head>
   <body>
     <div class="ambient-art" aria-hidden="true"><i class="ambient-coral"></i><i class="ambient-violet"></i><i class="ambient-mint"></i></div>
     <a class="skip-link" href="#projects">跳至重点项目</a>
     <header class="topbar wrap">
       <a class="brand" href="#top"><span class="monogram">SY<span>✳</span></span><b>刘圣阳<span> / Portfolio</span></b></a>
-      <nav aria-label="主导航"><a href="#experience">实习经历</a><a href="#projects">项目作品</a><a href="#research">研究与实践</a></nav>
+      <nav aria-label="主导航"><a href="#projects">项目作品</a><a href="#experience">实习经历</a><a href="#research">研究与实践</a></nav>
       <a class="top-contact" href="mailto:saintyoung@sjtu.edu.cn">联系我 <span aria-hidden="true">↗</span></a>
     </header>
     <main class="wrap" id="top">
@@ -22,14 +25,78 @@
         <div class="identity">
           <div class="kicker"><i></i> AI 产品 · Agent 应用 · 工业智能</div>
           <div class="name-line"><h1>刘圣阳<span>Shengyang Liu</span></h1><span class="year-badge">2027<br /><b>届硕士</b></span></div>
+          <div class="work-shortcuts" aria-label="作品快捷入口"><span>三件可以亲手体验的作品</span><a class="primary-work" href="#bridge-project"><i>01</i> 对上了 · 双平台联动 <span aria-hidden="true">↗</span></a><a href="#scope-project"><i>02</i> 文档核验 <span aria-hidden="true">↗</span></a><a href="#campus-project"><i>03</i> 岗位推荐 <span aria-hidden="true">↗</span></a></div>
         </div>
         <nav class="contact-rail" aria-label="个人联系方式">
           <a href="https://github.com/SaintJupiter" target="_blank" rel="noreferrer"><span class="contact-label">GitHub <span aria-hidden="true">↗</span></span><strong>SaintJupiter</strong></a>
           <a href="mailto:saintyoung@sjtu.edu.cn"><span class="contact-label">邮箱 <span aria-hidden="true">↗</span></span><strong>saintyoung@sjtu.edu.cn</strong></a>
+          <button class="copy-email js-only" type="button">复制邮箱 <span aria-hidden="true">⧉</span></button><span class="copy-status" role="status"></span>
         </nav>
         <div class="background-stack">
           <div class="education"><span class="section-label">教育背景 <small>EDUCATION</small></span><div class="school"><img class="school-emblem" src="./assets/sjtu-emblem.png" alt="上海交通大学校徽" width="64" height="64" /><div><h2>上海交通大学 <span>硕士</span></h2><p>土木水利 · 智能船舶工程</p></div></div><div class="school"><img class="school-emblem" src="./assets/heu-crest-local.png" alt="哈尔滨工程大学校徽" width="64" height="64" /><div><h2>哈尔滨工程大学 <span>本科</span></h2><p>船舶与海洋工程</p></div></div></div>
-          <a class="intern-summary" href="#experience"><img class="jd-logo" src="./assets/jd-official-app.png" alt="京东" width="64" height="64" /><div><strong>京东零售事业部 <span>AI 产品实习生</span></strong><p>ToB 案例查询 · ReAct Agent<span class="intern-keywords">多系统接入 · 双层安全护栏 · 人机审批</span></p></div><span class="round-arrow" aria-hidden="true">↗</span></a>
+          <a class="intern-summary" href="#experience"><img class="jd-logo" src="./assets/jd-official-app.png" alt="京东" width="64" height="64" /><div><strong>京东零售事业部 <span>AI 产品实习生</span></strong><p>ToB 案例查询 · ReAct Agent<span class="intern-keywords">L1–L4 分级 · 双层安全护栏</span></p></div><span class="round-arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+      <section class="featured detail-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading"><div><span class="section-label">SELECTED WORK</span><h2 id="projects-title">项目作品<span class="project-count">03</span></h2></div><span class="section-hint">从产品定义到可交互原型 <span aria-hidden="true">↙</span></span></div>
+        <div class="project-grid showcase-grid">
+          <article class="project bridge showcase" id="bridge-project">
+            <div class="project-copy">
+              <div class="project-top"><span class="project-icon" aria-hidden="true">⇄</span><span>01 / 重点作品 · 双平台联动</span></div>
+              <h3>对上了</h3><p class="project-subtitle">想吃的找得到，<br />想点的看得清。</p>
+              <p class="project-description">外卖评价少、图片不够看？去社区补充图文与讨论。笔记种了草、同款找不到？确认门店与菜品，直达外卖同款。</p>
+              <div class="tags"><span>双向产品路径</span><span>同款关联与歧义确认</span><span>返回上下文保留</span></div>
+              <div class="project-actions"><a class="demo-link" href="https://saintjupiter.github.io/food-bridge/" target="_blank" rel="noreferrer">体验双 App 联动 <span aria-hidden="true">↗</span></a><a class="repo-link" href="https://github.com/SaintJupiter/food-bridge" target="_blank" rel="noreferrer">查看源码 ↗</a></div>
+              <p class="project-meta">独立产品设计与开发 · 可运行 Web Demo<br />虚构数据与模拟交易；实际决策效率待用户测试验证。</p>
+            </div>
+            <div class="product-stage">
+              <div class="stage-heading"><span>INTERACTIVE DEMO / 两个 App，一段完整体验</span></div>
+              <a class="product-window" href="https://saintjupiter.github.io/food-bridge/" target="_blank" rel="noreferrer" aria-label="打开对上了双平台联动演示">
+                <div class="window-bar"><span><i></i><i></i><i></i></span><small>对上了 / 双向消费决策原型</small><span aria-hidden="true">↗</span></div>
+                <span class="screenshot-viewport"><img src="./assets/duishangle-preview.png" alt="对上了产品界面：左侧双向联动场景，右侧老红书与吃了么交互原型，点击打开演示" width="2342" height="1386" loading="lazy" /></span>
+                <span class="window-cta">打开原型，亲自走一遍 <span aria-hidden="true">↗</span></span>
+              </a>
+              <div class="stage-footer"><span class="feature-sticker">产品定义 × 交互闭环 × 可运行原型</span><span class="stage-index" aria-hidden="true">01 / 03</span></div>
+            </div>
+          </article>
+          <article class="project scope showcase" id="scope-project">
+            <div class="project-copy">
+              <div class="project-top"><span class="project-icon" aria-hidden="true">✳</span><span>02 / 文档智能</span></div>
+              <h3>SolutionScope</h3><p class="project-subtitle">不止检索材料，<br />更核验材料之间的关系。</p><p class="project-description">将要求、方案与验收材料逐项对照，绑定原文证据，并通过逐轮校验和规则门禁定位遗漏与冲突。</p>
+              <div class="tags"><span>Agent Skill</span><span>跨文档核验</span><span>证据与门禁</span></div>
+              <div class="project-actions"><a class="demo-link" href="https://saintjupiter.github.io/SolutionScope/" target="_blank" rel="noreferrer">进入在线演示 <span aria-hidden="true">↗</span></a><a class="repo-link" href="https://github.com/SaintJupiter/SolutionScope" target="_blank" rel="noreferrer">查看源码 ↗</a></div>
+              <p class="project-meta">独立设计与开发 <span>·</span> 公开演示使用合成数据</p>
+            </div>
+            <div class="product-stage">
+              <div class="stage-heading"><span><i></i> LIVE PRODUCT / 可交互产品</span></div>
+              <a class="product-window" href="https://saintjupiter.github.io/SolutionScope/" target="_blank" rel="noreferrer" aria-label="打开 SolutionScope 在线演示">
+                <div class="window-bar"><span><i></i><i></i><i></i></span><small>SolutionScope / 产品实景</small><span aria-hidden="true">↗</span></div>
+                <span class="screenshot-viewport"><img src="./assets/solutionscope.png" alt="SolutionScope 真实产品界面截图，点击打开交互演示" width="1280" height="735" loading="lazy" /></span>
+                <span class="window-cta">点击界面，进入演示 <span aria-hidden="true">↗</span></span>
+              </a>
+              <div class="preview-controls js-only"><div role="group" aria-label="截图浏览方式"><button type="button" data-preview="overview" aria-pressed="true">整体界面</button><button type="button" data-preview="detail" aria-pressed="false">浏览细节 <span aria-hidden="true">↗</span></button></div></div>
+              <div class="stage-footer"><span class="feature-sticker"><i aria-hidden="true">✦</i> 原文证据 × 可复核结论</span><span class="stage-index" aria-hidden="true">02 / 03</span></div>
+            </div>
+          </article>
+          <article class="project campus showcase" id="campus-project">
+            <div class="project-copy">
+              <div class="project-top"><span class="project-icon" aria-hidden="true">⌘</span><span>03 / 语义推荐</span></div>
+              <h3>校招岗位决策台</h3><p class="project-subtitle">不只说“适合”，<br />也说明依据与缺口。</p><p class="project-description">Embedding 召回已确认的简历事实，结合语义复核与约束重排；硬条件和可信度决定能否进入推荐。</p>
+              <div class="tags"><span>Embedding</span><span>语义复核</span><span>约束重排</span></div>
+              <div class="project-actions"><a class="demo-link" href="https://saintjupiter.github.io/campus-job-decision-desk/" target="_blank" rel="noreferrer">进入在线演示 <span aria-hidden="true">↗</span></a><a class="repo-link" href="https://github.com/SaintJupiter/campus-job-decision-desk" target="_blank" rel="noreferrer">查看源码 ↗</a></div>
+              <p class="project-meta">独立设计与开发 <span>·</span> 公开演示使用合成数据</p>
+            </div>
+            <div class="product-stage">
+              <div class="stage-heading"><span><i></i> LIVE PRODUCT / 可交互产品</span></div>
+              <a class="product-window" href="https://saintjupiter.github.io/campus-job-decision-desk/" target="_blank" rel="noreferrer" aria-label="打开 校招岗位决策台 在线演示">
+                <div class="window-bar"><span><i></i><i></i><i></i></span><small>校招岗位决策台 / 产品实景</small><span aria-hidden="true">↗</span></div>
+                <span class="screenshot-viewport"><img src="./assets/campus-preview-local.png" alt="校招岗位决策台 真实产品界面截图，点击打开交互演示" width="1440" height="900" loading="lazy" /></span>
+                <span class="window-cta">点击界面，进入演示 <span aria-hidden="true">↗</span></span>
+              </a>
+              <div class="preview-controls js-only"><div role="group" aria-label="截图浏览方式"><button type="button" data-preview="overview" aria-pressed="true">整体界面</button><button type="button" data-preview="detail" aria-pressed="false">浏览细节 <span aria-hidden="true">↗</span></button></div></div>
+              <div class="stage-footer"><span class="feature-sticker"><i aria-hidden="true">✦</i> 语义匹配 × 安全边界</span><span class="stage-index" aria-hidden="true">03 / 03</span></div>
+            </div>
+          </article>
         </div>
       </section>
       <section class="experience detail-section" id="experience">
@@ -39,33 +106,51 @@
           <div class="experience-body">
             <h3>ToB 合作案例查询 AI Agent</h3>
             <p>面向销售投标中历史案例分散、跨系统查询与权限协作繁琐的问题，参与 Agent 产品方案设计：将自然语言需求转为按需调用的工具链，在授权范围内汇总案例、业务数据与相关材料。</p>
-            <div class="jd-scope" aria-label="方案覆盖范围"><span>4 类业务系统</span><span>19 个标准工具接口</span><span>L1–L4 数据分级</span><span>方案设计亮点</span></div>
-            <div class="jd-highlights">
-              <div><span class="highlight-index">01 / ORCHESTRATION</span><h4>ReAct 动态编排</h4><p>根据查询意图与上一步结果选择工具，随追问补充查询步骤；按需组织任务，而非预设所有固定路径。</p></div>
-              <div><span class="highlight-index">02 / TOOL ABSTRACTION</span><h4>多系统统一接入</h4><p>将 CRM、数据、财务与合同查询接入统一工具层，规范参数、返回结果和错误码；底层系统接口变化时，Agent 无需同步改写调用逻辑。</p></div>
-              <div><span class="highlight-index">03 / DATA GOVERNANCE</span><h4>分级权限 × 双层防护</h4><p>区分公开、脱敏、审批与禁止展示的数据，结合组内／跨组权限；用 Prompt 约束与工具层过滤共同防护。</p></div>
-              <div><span class="highlight-index">04 / HUMAN IN THE LOOP</span><h4>不阻塞查询的审批协作</h4><p>管控材料经用户确认后发起审批，等待期间继续查询已授权信息；通过后补充结果，驳回后提供替代路径。</p></div>
-              <div><span class="highlight-index">05 / CONVERSATION STATE</span><h4>参数消歧与对话状态</h4><p>用补充、消歧、确认三类追问澄清关键条件；维护参数快照、结果顺序与任务状态，解析“第一个项目”等指代。</p></div>
-              <div><span class="highlight-index">06 / EVALUATION</span><h4>可追溯的评测迭代</h4><p>围绕工具调用、审批与脱敏保留审计记录；按 Bad Case 分类、单模块 Prompt 调优与回归验证组织迭代。</p></div>
+            <div class="jd-scope" aria-label="方案覆盖范围"><span>ReAct 动态编排</span><span>19 个 CLI 工具</span><span>L1–L4 分级访问控制</span><span>模型＋代码双层安全护栏</span></div>
+            <div class="experience-layout">
+              <div class="jd-highlights">
+                <div><span class="highlight-index">01 / DISCOVERY</span><h4>业务问法结构化与澄清</h4><p>从 500 余条业务问法中提炼客户、项目、时间和金额等参数，设计缺参反问与歧义消解规则，让模糊需求转为可执行查询。</p></div>
+                <div><span class="highlight-index">02 / ORCHESTRATION</span><h4>ReAct 动态编排</h4><p>围绕客户→项目→数据→补充查询设计动态路由；根据已知参数和工具返回跳过冗余步骤，按需调用 19 个 CLI 工具。</p></div>
+                <div><span class="highlight-index">03 / L1–L4 SECURITY</span><h4>L1–L4 分级访问控制</h4><p>L1 基础信息授权可见；L2 业务数据按角色及组内／跨组关系控制、跨组区间脱敏；L3 合同与发票审批交付；L4 成本、毛利等禁止输出。</p></div>
+                <div><span class="highlight-index">04 / GUARDRAILS</span><h4>模型＋代码双层安全护栏</h4><p>模型层通过 Prompt / Skill 声明安全边界；代码层由 CLI / 过滤器强制鉴权、脱敏和拦截，在数据返回模型前执行规则，避免仅靠提示词防越权。</p></div>
+                <div><span class="highlight-index">05 / CONTEXT</span><h4>多轮上下文与异步审批</h4><p>保留已确认参数与授权结果摘要，承接连续追问；L3 审批等待期间先交付可见信息，审批通过后再按授权范围补充材料。</p></div>
+                <div><span class="highlight-index">06 / ITERATION</span><h4>Bad Case 归因与评测迭代</h4><p>从参数解析、工具路由、权限红线和结果呈现定位问题，针对性迭代规则与输出模板；以查询耗时为北极星指标，配套正确性与安全验收。</p></div>
+              </div>
+              <aside class="access-note" aria-label="架构与分级安全机制示意">
+                <div class="note-heading"><span>INSIDE THE AGENT</span><span aria-hidden="true">✳</span></div>
+                <div class="mechanism-switch js-only" aria-label="选择设计切面"><button type="button" data-panel="architecture" aria-pressed="true">ReAct 架构</button><button type="button" data-panel="access" aria-pressed="false">L1–L4 安全</button></div>
+                <div id="architecture" class="mechanism-panel">
+                  <h4>随中间结果，<br /><em>决定下一步。</em></h4>
+                  <p>ReAct 按需选工具并结合结果继续决策；鉴权贯穿调用，敏感数据在返回模型前过滤。</p>
+                  <ol class="react-path">
+                    <li><b>01</b><div><strong>理解需求 · 补齐参数</strong><span>业务问法 → 澄清与上下文</span></div></li>
+                    <li><b>02</b><div><strong>Reason → Act → Observe</strong><span>推理、调用、观察；按结果继续循环</span></div></li>
+                    <li><b>03</b><div><strong>19 个 CLI 工具</strong><span>14 个业务查询工具<br />＋3 个鉴权、2 个协同工具</span></div></li>
+                    <li><b>04</b><div><strong>汇总授权结果</strong><span>仅交付权限范围内的信息<br />L3 材料按审批结果补充</span></div></li>
+                  </ol>
+                </div>
+                <div id="access" class="mechanism-panel">
+                <h4>四级数据边界，<br /><em>双层安全护栏。</em></h4>
+                <p>L1–L4 定义访问与交付规则；模型层遵循规则，代码层强制执行。</p>
+                <ol class="access-levels">
+                  <li><b>L1</b><div><strong>基础信息 · 授权可见</strong><span>企业授权范围内展示</span></div></li>
+                  <li><b>L2</b><div><strong>业务数据 · 按权脱敏</strong><span>组内按权限 · 跨组区间脱敏</span></div></li>
+                  <li><b>L3</b><div><strong>合同与发票 · 审批交付</strong><span>审批通过后交付受控材料</span></div></li>
+                  <li><b>L4</b><div><strong>敏感数据 · 禁止输出</strong><span>成本、毛利等禁止向用户输出</span></div></li>
+                </ol>
+                </div>
+                <small>方案机制概括，不展示内部客户与业务数据。</small>
+              </aside>
             </div>
-            <p class="jd-roadmap"><strong>演进规划</strong>先覆盖基础查询，保留关键人工确认；再基于验证结果逐步扩展自动化。个性化 Memory 与主动服务属于后续方向。</p>
+            <div class="delivery-strip"><span>个人交付</span><p>查询参数与反问规则库 <i>/</i> 工具路由矩阵 <i>/</i> 数据分级与权限策略 <i>/</i> 效率及安全验收方案</p></div>
+            <section class="outcomes" aria-label="调研与效果验证">
+              <div class="outcome-intro"><span class="section-label">OUTCOMES / 产出与验证</span><h4>把查找的时间，<br />还给业务。</h4><p>北极星指标：查询耗时</p></div>
+              <div class="metric metric-primary"><strong><span>约 </span>85<span>% ↓</span></strong><h5>查询耗时下降 · 口径估算</h5><div class="time-comparison" aria-label="人工30分钟，对比Agent记录均值4分17秒"><span>人工基线 · 30 分钟</span><i class="time-before"></i><span>Agent 记录均值 · 4 分 17 秒</span><i class="time-after"></i></div><p>按人工 30 分钟与记录均值 4 分 17 秒估算（含多轮追问）；样本量与计时边界待核实。</p></div>
+              <div class="metric"><strong>3.8<span> → </span>4.6</strong><h5>结果呈现评分 / 课件示例</h5><p>特定低分用户群的 5 分制复测示例，非个人上线业绩；不代表整体满意度或 NPS。</p></div>
+            </section>
+            <p class="outcome-footnote">指标口径：耗时降幅是基于所列基线的估算，不是独立对照实验结论；呈现评分来自特定用户群复测，不混算为统一效果，不将 NPS 目标作为已实现结果。</p>
           </div>
         </article>
-      </section>
-      <section class="featured detail-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading"><div><span class="section-label">SELECTED WORK</span><h2 id="projects-title">项目作品<span class="project-count">02</span></h2></div><span class="section-hint">亲手构建的两个 AI 产品 <span aria-hidden="true">↙</span></span></div>
-        <div class="project-grid">
-          <article class="project scope">
-            <div class="project-copy"><div class="project-top"><span class="project-icon">✳</span><span>01 / 文档智能</span><span class="demo-badge"><i></i>可交互演示</span></div><h3>SolutionScope</h3><p class="project-subtitle">技术方案与验收材料智能核验工作台</p><p class="project-description">逐轮绑定原文证据、执行规则门禁，输出可复核结论，而非只做检索问答。</p></div>
-            <a class="project-preview" href="https://saintjupiter.github.io/SolutionScope/" target="_blank" rel="noreferrer" aria-label="打开 SolutionScope 在线演示"><div class="window-bar"><span><i></i><i></i><i></i></span><small>solutionscope / 产品预览</small><span>↗</span></div><img src="./assets/solutionscope.png" alt="SolutionScope 产品首页，紫色与薄荷绿色界面" width="1280" height="735" /><span class="preview-open">打开体验 ↗</span></a>
-            <div class="project-bottom"><div class="tags"><span>Agent Skill</span><span>跨文档推理</span><span>评测与复核</span></div><div class="project-actions"><a class="demo-link" href="https://saintjupiter.github.io/SolutionScope/" target="_blank" rel="noreferrer">体验项目 <span>↗</span></a><a class="repo-link" href="https://github.com/SaintJupiter/SolutionScope" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
-          </article>
-          <article class="project campus">
-            <div class="project-copy"><div class="project-top"><span class="project-icon">⌘</span><span>02 / 语义推荐</span><span class="demo-badge"><i></i>可交互演示</span></div><h3>校招岗位决策台</h3><p class="project-subtitle">证据约束的 AI 岗位推荐系统</p><p class="project-description">Embedding 召回经历证据，结合语义复核与硬条件门禁约束重排。</p></div>
-            <a class="project-preview" href="https://saintjupiter.github.io/campus-job-decision-desk/" target="_blank" rel="noreferrer" aria-label="打开校招岗位决策台在线演示"><div class="window-bar"><span><i></i><i></i><i></i></span><small>campus job desk / 产品预览</small><span>↗</span></div><img src="./assets/campus-preview-local.png" alt="校招岗位决策台的今日决策页面，展示合成岗位与三轴结论" width="1440" height="900" /><span class="preview-open">打开体验 ↗</span></a>
-            <div class="project-bottom"><div class="tags"><span>Embedding</span><span>约束重排</span><span>A/B 评测</span></div><div class="project-actions"><a class="demo-link" href="https://saintjupiter.github.io/campus-job-decision-desk/" target="_blank" rel="noreferrer">体验项目 <span>↗</span></a><a class="repo-link" href="https://github.com/SaintJupiter/campus-job-decision-desk" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
-          </article>
-        </div>
       </section>
       <section class="detail-section" id="research"><div class="section-heading"><div><span class="section-label">RESEARCH & PRACTICE</span><h2>研究与工程实践</h2></div><span class="section-hint">船海工程背景 · 工业 AI 应用</span></div>
         <div class="research-grid">

@@ -5,6 +5,9 @@
 !README.md
 !index.html
 !portfolio-readable.css
+!portfolio-motion.css
+!portfolio-motion.js
+!portfolio-bridge.css
 !_headers
 !robots.txt
 !assets/
@@ -15,3 +18,4 @@ assets/*
 !assets/campus-preview-local.png
 !assets/SOURCES.md
 !assets/jd-official-app.png
+!assets/duishangle-preview.png
